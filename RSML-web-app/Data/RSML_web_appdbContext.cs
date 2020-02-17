@@ -24,5 +24,7 @@ namespace RSML_web_app.Data
         public System.Data.Entity.DbSet<RSML_web_app.Models.Resolved> Resolveds { get; set; }
 
         public System.Data.Entity.DbSet<RSML_web_app.Models.ConfirmedDevices> ConfirmedDevices { get; set; }
+
+        public System.Data.Entity.DbSet<RSML_web_app.Models.ConfirmedDevicesInStore> ConfirmedDevicesInStores { get; set; }
     }
 }

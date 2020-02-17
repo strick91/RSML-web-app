@@ -148,6 +148,8 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ConfirmedDevices1Controller.cs" />
     <Compile Include="Controllers\ConfirmedDevicesController.cs" />
+    <Compile Include="Controllers\ConfirmedDevicesInStores1Controller.cs" />
+    <Compile Include="Controllers\ConfirmedDevicesInStoresController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Resolveds1Controller.cs" />
     <Compile Include="Controllers\ResolvedsController.cs" />
@@ -158,6 +160,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ConfirmedDevices.cs" />
+    <Compile Include="Models\ConfirmedDevicesInStore.cs" />
     <Compile Include="Models\Resolved.cs" />
     <Compile Include="Models\Unresolved.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -185,6 +188,11 @@
     <Content Include="Views\ConfirmedDevices\Details.cshtml" />
     <Content Include="Views\ConfirmedDevices\Edit.cshtml" />
     <Content Include="Views\ConfirmedDevices\Index.cshtml" />
+    <Content Include="Views\ConfirmedDevicesInStores\Create.cshtml" />
+    <Content Include="Views\ConfirmedDevicesInStores\Delete.cshtml" />
+    <Content Include="Views\ConfirmedDevicesInStores\Details.cshtml" />
+    <Content Include="Views\ConfirmedDevicesInStores\Edit.cshtml" />
+    <Content Include="Views\ConfirmedDevicesInStores\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
